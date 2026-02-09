@@ -69,3 +69,43 @@
     .ending {
       margin-top: 40px;
       font-size: 1.2rem;
+      color: #b03060;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>365 Days of Togetherness ❤️</h1>
+    <div class="date">10th February</div>
+
+    <p>To my Shona 💕</p>
+
+    <p>Cheers to 365 days of choosing each other, every single day.</p>
+
+    <div class="disclaimer">
+      Disclaimer: This video might make you have teary eyes 🥹
+    </div>
+
+    <button onclick="playVideo()">Click to watch our story ▶️</button>
+
+    <video id="loveVideo" controls>
+      <source src="love-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="ending">
+      365 days down, forever to go.
+    </div>
+  </div>
+
+  <script>
+    function playVideo() {
+      const video = document.getElementById('loveVideo');
+      video.style.display = 'block';
+      video.play();
+    }
+  </script>
+</body>
+</html>
