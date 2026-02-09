@@ -15,50 +15,57 @@
     }
 
     .container {
-      padding: 40px 20px;
+      padding: 50px 20px;
       max-width: 800px;
       margin: auto;
     }
 
     h1 {
-      font-size: 2.2rem;
+      font-size: 2.4rem;
       color: #b03060;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
+    }
+
+    .date {
+      font-size: 1rem;
+      color: #777;
+      margin-bottom: 25px;
     }
 
     p {
       font-size: 1.1rem;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
+    }
+
+    .disclaimer {
+      font-size: 0.95rem;
+      color: #a94442;
+      margin-bottom: 25px;
+    }
+
+    button {
+      background-color: #b03060;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #92254c;
     }
 
     video {
+      display: none;
       width: 100%;
+      margin-top: 30px;
       border-radius: 15px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.15);
     }
 
-    footer {
-      margin-top: 30px;
-      font-size: 0.9rem;
-      color: #777;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="container">
-    <h1>365 Days of Togetherness ❤️</h1>
-    <p>Cheers to 365 days of choosing each other, every single day.</p>
-
-    <!-- Replace "love-video.mp4" with your video file name -->
-    <video controls autoplay>
-      <source src="love-video.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-
-    <footer>
-      Forever grateful for you ✨
-    </footer>
-  </div>
-</body>
-</html>
+    .ending {
+      margin-top: 40px;
+      font-size: 1.2rem;
